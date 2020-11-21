@@ -1,6 +1,6 @@
 # Lightweight Scala TLS HTTP 1.1 Web Server based on ZIO async fibers and Java NIO sockets.
 
-It uses ZIO-JSON to support JSON encoding/decodig. Please, refer to the README at the main branch.
+It uses ZIO-JSON to support JSON encoding/decodig. Please, refer to the <strong>README</strong> at the main branch.
 
 fromJSON() extracts object A from Chunk[Byte] Request's body.
 
