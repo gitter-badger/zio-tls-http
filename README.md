@@ -29,7 +29,7 @@ asJsonBody() mutates a Response by adding Chunk[Byte] body to Response, which is
 
     case class DataBlock(val name: String, val address: String, val colors : Chunk[String] )
     
-    Actual Route, text and JSON.
+   Actual Route, text and JSON.
     
      val app_route_JSON = HttpRoutes.ofWithFilter(proc1) { 
 
